@@ -8,6 +8,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+yaspin = "^3.0.1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.2.0"
