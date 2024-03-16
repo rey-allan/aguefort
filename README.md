@@ -22,3 +22,11 @@
 7. Run the script: `python3 scripts/download_captions.py`
 8. Go grab a coffee while the script runs, it will take some time
 9. Captions will be saved to `data/captions` in the format `season-episode_number.vtt`
+
+## Generating the Knowledge Base
+
+> **Note:** Make sure to download the Adventuring Academy data before (see above)!
+
+1. Run the script: `python3 scripts/generate_kb.py`
+2. Go to sleep while the script runs, it will take a long time
+3. Knowledge base will be saved to `data/adventuring_academy_kb`
