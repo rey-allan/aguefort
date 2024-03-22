@@ -1,3 +1,4 @@
 login
 data/captions/*.vtt
 data/adventuring_academy_kb/*
+app/.env
