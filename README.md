@@ -4,6 +4,7 @@
 
 ## Prerequisites
 
+- AWS Account
 - Docker
 - Poetry
 
@@ -30,3 +31,21 @@
 1. Run the script: `python3 scripts/generate_kb.py`
 2. Go to sleep while the script runs, it will take a long time
 3. Knowledge base will be saved to `data/adventuring_academy_kb`
+
+## Running the App
+
+> **Note:** Make sure to generate the knowledge base before (see above)!
+
+1. Request access to Claude family of models via Bedrock in your AWS Account
+   - Make sure to specify your use of these models will be for personal projects _only_
+   - Access should be granted in a few minutes
+2. Create an IAM user in your AWS Account with the `AmazonBedrockFullAccess` policy attached to it, and note down your **access** and **secret** keys
+3. Create an `.env` file inside `app/` folder with the following keys:
+   ```
+   AWS_ACCESS_KEY_ID=<YOUR_ACCESS_KEY>
+   AWS_SECRET_ACCESS_KEY=<YOUR_SECRET_KEY>
+   AWS_REGION=<REGION_WITH_BEDROCK_ACCESS>
+   ```
+4. Run the app: `python3 app/app.py`
+5. Open the app in your favorite browser, the default URL should look like this: `http://127.0.0.1:7860`
+6. Enjoy!
