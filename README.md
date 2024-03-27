@@ -50,3 +50,11 @@
    - Where `$HISTORY` is the max number of previous messages from the chat history to use as context. It defaults to 5 messages.
 5. Open the app in your favorite browser, the default URL should look like this: `http://127.0.0.1:7860`
 6. Enjoy!
+
+### Screenshot
+
+This is a screenshot of the kind of questions you can ask. And how you can also ask follow-up questions and continue chatting about the topics.
+
+<p align="center">
+  <img src="img/aguefort.png" width="75%" />
+</p>
