@@ -46,6 +46,7 @@
    AWS_SECRET_ACCESS_KEY=<YOUR_SECRET_KEY>
    AWS_REGION=<REGION_WITH_BEDROCK_ACCESS>
    ```
-4. Run the app: `python3 app/app.py`
+4. Run the app: `python3 app/app.py --history $HISTORY`
+   - Where `$HISTORY` is the max number of previous messages from the chat history to use as context. It defaults to 5 messages.
 5. Open the app in your favorite browser, the default URL should look like this: `http://127.0.0.1:7860`
 6. Enjoy!
