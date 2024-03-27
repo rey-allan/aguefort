@@ -56,5 +56,5 @@
 This is a screenshot of the kind of questions you can ask. And how you can also ask follow-up questions and continue chatting about the topics.
 
 <p align="center">
-  <img src="img/aguefort.png" width="75%" />
+  <img src="img/aguefort.png" />
 </p>
